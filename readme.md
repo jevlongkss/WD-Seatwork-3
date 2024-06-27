@@ -6,21 +6,23 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="![441226421_988503285592567_2443689800431697679_n__1_-removebg-preview](https://github.com/jevlongkss/WD-Seatwork-3/assets/168976080/5df554bf-1c87-48e5-919f-3a87e5332ba7)
+" alt="Jv Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Header and Footer</h3>
 </div>
-<!-- TODO: Make a short description -->
+<!-- TODO: Welcome to the Header and Footer Display. This project showcases various static and animated header and footer designs. -->
 <div align="center">
-  Short Description. (Optional)
+  Short Description. (Welcome to the Header and Footer Display. This project showcases various static and animated header and footer designs.)
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
+<!-- TODO: Change the zyx into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://github.com/jevlongkss/WD-Seatwork-3/edit/main/readme.md)
 
 ---
 
@@ -60,10 +62,8 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is to make 5 different Static Headers and 5 different Animated Headers, 5 different Static Footers and 5 different Animated Footers. The Goal of the project is to test our skills and knowledge using HTML and CSS to make different designs for headers and footers.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -94,17 +94,24 @@ WD-ProjectName
 └─ assets
 |   └─ css
 |   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   └─ img - C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+|   |   └─ 
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ footer gallery
+                    └─ assets
+                             └─ css
+                                   └─ style.css
+                              img
+                                 └─ C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+                              js
+   └─ header gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ img C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+|     |  |  └─ 
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -117,4 +124,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title | Purpose | Link |
+|-|-|-|
+| Google Fonts | For changing the fonts of the texts | https://fonts.google.com/ |
+| Google | Ideas | https://google.com |
+| Blogspot | HTML AND CSS GUIDES | https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-|
+
+
