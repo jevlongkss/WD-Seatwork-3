@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+section[class^="divider"] {
+    text-align: center;
+    margin: 40px 0;
+}
+
+section[class^="divider"] h1 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+
+.fdesign1, .fdesign2, .fdesign6, .fdesign7 {
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.fcontainer1, .fcontainer2, .fcontainer6, .fcontainer7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.fsection1, .fsection2, .fsection3, .fsection4, .fsection5, .fsection6, .fsection7, .fsection9 {
+    text-align: left;
+}
+
+.fsection1 h3, .fsection2 h3, .fsection3 h3, .fsection4 h3, .fsection6 h3, .fsection7 h3 {
+    font-size: 1.2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.fsection1 ul, .fsection2 ul, .fsection3 ul, .fsection4 ul, .fsection6 ul, .fsection7 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.fsection1 ul li, .fsection2 ul li, .fsection3 ul li, .fsection4 ul li, .fsection6 ul li, .fsection7 ul li {
+    margin-bottom: 10px;
+}
+
+.fsection1 ul li a, .fsection2 ul li a, .fsection3 ul li a, .fsection4 ul li a, .fsection6 ul li a, .fsection7 ul li a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.fsection1 ul li a:hover, .fsection2 ul li a:hover, .fsection3 ul li a:hover, .fsection4 ul li a:hover, .fsection6 ul li a:hover, .fsection7 ul li a:hover {
+    color: #007BFF;
+}
+
+
+.fcontainer2 {
+    flex-direction: row-reverse;
+}
+
+
+.thirddesign, .fourthdesign, .fifthdesign {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.thirddesign .fcontainer3, .fourthdesign .logo, .fifthdesign .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirddesign .fsection5 ul, .fifthdesign .fsection9 ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.thirddesign .fsection5 ul li, .fifthdesign .fsection9 ul li {
+    margin: 0 10px;
+}
+
+.thirddesign .fsection5 ul li a, .fifthdesign .fsection9 ul li a {
+    color: white;
+}
+
+.fourthdesign p, .fifthdesign i {
+    color: white;
+}
+
+.fourthdesign p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fifthdesign i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.fifthdesign i:hover {
+    transform: scale(1.2);
+}
+
+
+.animatelogo {
+    width: 100px;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.desclink {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.desclink:hover {
+    color: #0056b3;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fdesign6 .logo img, .fdesign7 .logo img, .fifthdesign .logo img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.fdesign6 .fsection6, .fdesign7 .fsection7 {
+    animation: slideIn 2s ease-in-out;
+}
+
+.fdesign7 .logo img {
+    animation: bounceIn 2s ease-in-out;
+}
+
+.fifthdesign i {
+    animation: float 3s ease-in-out infinite;
+}
+
+.fdesign6 .fsection6 ul li a, .fdesign7 .fsection7 ul li a {
+    animation: pulse 1.5s infinite;
+}
+
+
+@media (max-width: 768px) {
+    .fcontainer1, .fcontainer2, .fcontainer6, .fcontainer7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .fsection1, .fsection2, .fsection3, .fsection4, .fsection5, .fsection6, .fsection7 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .fsection1 ul li, .fsection2 ul li, .fsection3 ul li, .fsection4 ul li, .fsection6 ul li, .fsection7 ul li {
+        margin-bottom: 5px;
+    }
+}
