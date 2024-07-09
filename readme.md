@@ -139,4 +139,4 @@ Headers & Footers: Create 5 static and 5 animated styles each for headers and fo
 | Google | Icons, images, and backgrounds. | google.com |
 | Pinterest | Idea for Landing page, header and footer designs  images | pinterest.com |
 | Youtube | Idea on How To Make Website Using HTML And CSS | Create Website Header Design | https://www.youtube.com/watch?v=10Z6UIe7R1E |
-| Deployment Link | Published site link | (https://github.com/jevlongkss/WD-hands-on-2.git) |
+| Deployment Link | Published site link | (https://jevlongkss.github.io/WD-Seatwork-3/) |
