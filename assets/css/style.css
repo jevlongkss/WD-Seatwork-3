@@ -1,0 +1,284 @@
+/* Universal styles */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Background image for the landing page */
+body {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.7)); /* Gradient background */
+    color: white;
+    animation: fadeInDown 2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Spacing between letters */
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+header p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Button styles */
+.button-container {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+    animation: popIn 1s ease-in-out;
+    display: inline-block;
+    line-height: 55px; /* Center text vertically */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transform: scale(1.1);
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(50, 50, 50, 0.7)); /* Gradient background */
+    color: white;
+    animation: fadeInUp 2s ease-in-out;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+section[class^="divider"] {
+    text-align: center;
+    margin: 40px 0;
+}
+
+section[class^="divider"] h1 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Animation Keyframes */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animations to specific elements */
+.fifthdesign .logo img {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.fifthdesign i {
+    animation: float 3s ease-in-out infinite;
+}
+
+.fourthdesign .logo img {
+    animation: bounceIn 2s ease-in-out;
+}
+
+.fdesign6 .fsection6,
+.fdesign7 .fsection7 {
+    animation: slideIn 2s ease-in-out;
+}
+
+.fdesign6 .fsection6 ul li a,
+.fdesign7 .fsection7 ul li a {
+    animation: pulse 1.5s infinite;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    section[class^="divider"] {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+}
