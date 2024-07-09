@@ -6,23 +6,22 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="![441226421_988503285592567_2443689800431697679_n__1_-removebg-preview](https://github.com/jevlongkss/WD-Seatwork-3/assets/168976080/5df554bf-1c87-48e5-919f-3a87e5332ba7)
-" alt="Jv Logo" width="130" height="100">
+    <img src="./assets/img/jv logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Header and Footer</h3>
 </div>
-<!-- TODO: Welcome to the Header and Footer Display. This project showcases various static and animated header and footer designs. -->
+<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Welcome to the Header and Footer Display. This project showcases various static and animated header and footer designs.)
+  Welcome to the Header and Footer Display. This project showcases various static and animated header and footer designs.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx into your github username  -->
+<!-- TODO: Change the zyx-0314 into your github username  -->
+jevlongkss
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-![](https://github.com/jevlongkss/WD-Seatwork-3/edit/main/readme.md)
+![](https://github.com/jevlongkss/WD-Seatwork-3)
 
 ---
 
@@ -62,15 +61,24 @@
 Description of the project in details.
 
 Guiding Question:
-The project is to make 5 different Static Headers and 5 different Animated Headers, 5 different Static Footers and 5 different Animated Footers. The Goal of the project is to test our skills and knowledge using HTML and CSS to make different designs for headers and footers.
-
+- What is the project - The project is a web development assignment titled “Seatwork 3: Headers and Footers Display Website.
+- Whats the purpose - The goal is to create a website with distinct header and footer designs using only HTML and CSS. It should include both static and animated versions, be well-structured, deployed online, and have an updated README file.
+- What are key components - Design and Theme: A unique design theme for the landing page.
+Seatwork 3 Page: Utilizes pure HTML and CSS with a proper file structure.
+Content: An engaging overview of the website’s purpose and content.
+Deployment: The website must be accessible online.
+README Update: Detailed project information and usage instructions. 
+- What technology used and how it is used - HTML: For structuring the website’s content.
+CSS: For styling, including static and animated designs for headers and footers.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Design & Theme: Choose a unique theme for the landing page design using only HTML and CSS.
+File Structure: Maintain proper structure with index.html and external CSS files, using lower-kebab-case for naming.
+Content & Deployment: Provide an engaging website overview and deploy it online with accessible navigation.
+Headers & Footers: Create 5 static and 5 animated styles each for headers and footers, ensuring uniqueness and functionality.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,33 +98,36 @@ The project is to make 5 different Static Headers and 5 different Animated Heade
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img - C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
-|   |   └─ 
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ footer gallery
-                    └─ assets
-                             └─ css
-                                   └─ style.css
-                              img
-                                 └─ C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
-                              js
-   └─ header gallery
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img C:\Users\jv\Desktop\WD-Seatwork-3\pages\footer gallery\assets\img\441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
-|     |  |  └─ 
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
+┣ 📂assets
+┃ ┣ 📂css
+┃ ┃ ┗ 📜style.css
+┃ ┣ 📂img
+┃ ┃ ┣ 📜jv logo.png
+┃ ┃ ┗ 📜nyebe_white.png
+┃ ┗ 📂js
+┃   ┗ 📜script.js
+┣ 📂pages
+┃ ┣ 📂footer gallery
+┃ ┃ ┣ 📂assets
+┃ ┃ ┃ ┣ 📂css
+┃ ┃ ┃ ┃ ┗ 📜style.css
+┃ ┃ ┃ ┣ 📂img
+┃ ┃ ┃ ┃ ┗ 📜441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+┃ ┃ ┃ ┗ 📂js
+┃ ┃ ┃   ┗ 📜scripts.js
+┃ ┃ ┗ 📜index.html
+┃ ┗ 📂header gallery
+┃   ┣ 📂assets
+┃   ┃ ┣ 📂css
+┃   ┃ ┃ ┗ 📜style.css
+┃   ┃ ┣ 📂img
+┃   ┃ ┃ ┗ 📜441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+┃   ┃ ┗ 📂js
+┃   ┃   ┗ 📜scripts.js
+┃   ┗ 📜index.html
+┣ 📜index.html
+┗ 📜readme.md
+
 ```
 
 ## Resources
@@ -124,10 +135,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Title | Purpose | Link |
-|-|-|-|
-| Google Fonts | For changing the fonts of the texts | https://fonts.google.com/ |
-| Google | Ideas | https://google.com |
-| Blogspot | HTML AND CSS GUIDES | https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-|
-
-
+-|-|-|
+| Google | Icons, images, and backgrounds. | google.com |
+| Pinterest | Idea for Landing page, header and footer designs  images | pinterest.com |
+| Youtube | Idea on How To Make Website Using HTML And CSS | Create Website Header Design | https://www.youtube.com/watch?v=10Z6UIe7R1E |
+| Deployment Link | Published site link | (https://github.com/jevlongkss/WD-hands-on-2.git) |
